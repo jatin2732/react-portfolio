@@ -36,11 +36,13 @@ section {
     height: 100vh;
     margin-top: -60px;
 }
-#container{
+
+#container {
     /* border: 2px solid; */
     overflow-y: hidden;
     overflow-x: hidden;
 }
+
 #imgSection {
     width: 40%;
     position: relative;
@@ -61,13 +63,13 @@ section {
 }
 
 .bg-img {
-    
+
     /* top: 10px; */
     height: 450px;
     margin-bottom: 150px;
     /* border: 2px solid; */
     /* bottom: 100px; */
-    
+
 }
 
 .Myimg {
@@ -81,10 +83,32 @@ section {
 
 }
 
-#imgSection:hover .bg-img{
+@media (max-width:1200px) and (min-width: 600px) {
+    #imgSection {
+        /* border: 2px solid; */
+        /* width: 100%; */
+        margin: 0px 20%
+    }
+
+    .bg-img {
+        /* margin-top: 0px; */
+        /* border: 2px solid; */
+        width: 460px;
+    }
+
+    .Myimg {
+        /* border: 2px solid; */
+        height: auto;
+        width: 350px;
+    }
+}
+
+
+#imgSection:hover .bg-img {
     bottom: 40px;
 
 }
+
 #imgSection:hover .Myimg {
     left: 54%;
 }
@@ -332,3 +356,38 @@ section {
 .intro_sec .h_bg-image {
     filter: saturate(0.5);
 }
+<<<<<<< HEAD
+
+
+@media (max-width: 600px) and (min-width:200px) {
+    #imgSection {
+        /* width: 100%; */
+        /* border: 2px solid black; */
+        position: relative;
+        top: 30px;
+        left: 0px;
+        width: 90%;
+        margin: 0px auto;
+        height: 400px;
+    }
+
+    .bg-img {
+        /* width: 100%; */
+        /* border: 2px solid black; */
+        height: 90%;
+        position: absolute;
+        bottom: 10px;
+    }
+
+    .Myimg {
+        /* width: 100%; */
+        /* border: 2px solid; */
+        height: 110%;
+        width: 80%;
+        position: relative;
+        top: 10px;
+        bottom: 10px;
+
+    }
+}
+
