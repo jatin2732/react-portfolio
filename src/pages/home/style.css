@@ -88,6 +88,51 @@ section {
 #imgSection:hover .Myimg {
     left: 54%;
 }
+@media (max-width:1200px) and (min-width: 600px) {
+ #imgSection{
+        /* border:1px solid ; */
+        height: 300px;
+    }
+    .Myimg{
+         height: 400px;
+        width: 200px;
+    }
+     .bg-img {
+        height: 400px;
+        position: absolute;
+        bottom: 100px;
+    }
+    
+}
+
+@media (max-width: 600px) and (min-width:200px) {
+
+    #imgSection {
+        /* border: 1px solid; */
+        position: relative;
+        top: 30px;
+        left: 0px;
+        width: 90%;
+        margin: 0px auto;
+        height: 400px;
+    }
+
+    .Myimg{
+        /* border: 1px solid; */
+        height: 100%;
+        width: 70%;
+        position: relative;
+        top: 10px;
+        bottom: 10px;
+    }
+
+    .bg-img {
+        height: 100%;
+        position: absolute;
+        bottom: 10px;
+    }
+    
+}
 
 @media (max-width:991.98px) {
     .intro_sec {
